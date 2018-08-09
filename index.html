@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Dating Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+
+        <h1>Who you get to date</h1>
+        <p>Fill out the survey below:</p>
+        <p></p>
+
+        <p>Select the gender you want to date:</p>
+        <select class="form-control" id="gender">
+          <option class="gender" value="0"></option>
+          <option class="gender" value="1">Male</option>
+          <option class="gender" value="2">Female</option>
+        </select>
+        <p>Select your favorite hobby:</p>
+        <select class="form-control" id="hobby">
+          <option class="hobby" value="0"></option>
+          <option class="hobby" value="1">Dancing</option>
+          <option class="hobby" value="2">Sports</option>
+          <option class="hobby" value="3">Music</option>
+        </select>
+        <button type="button" id="choose" name="button">See who your match is</button>
+    </div>
+
+    <div class="output">
+      <h2 id="showtitle">Your result is:</h2>
+      <img src="img/mal1.jpeg" id="2" alt="male">
+      <img src="img/mal2.jpeg" id="1" alt="male">
+      <img src="img/mal3.jpeg" id="3" alt="male">
+      <img src="img/fem1.jpeg" id="4" alt="female">
+      <img src="img/fem2.jpeg" id="5" alt="female">
+      <img src="img/fem3.jpeg" id="6" alt="female">
+
+    </div>
+
+  </div>
+  </body>
+</html>
